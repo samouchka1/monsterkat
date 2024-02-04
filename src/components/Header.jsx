@@ -1,6 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faInstagram } from '@fortawesome/free-solid-svg-icons';
 
 import '/logo.png';
 
@@ -14,7 +12,6 @@ const Header = () => {
             
             <div>
                 <button className="text-neutral-50 text-2xl">
-                    <i className=""></i>
                 </button>
 
                 <ul className="absolute top-24 text-neutral-50 text-2xl">
