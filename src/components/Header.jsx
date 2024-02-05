@@ -7,7 +7,7 @@ import '/logo.png';
 
 const Header = () => {
   return (
-    <div className="absolute top-0 left-0 w-full h-full z-40 px-10">
+    <header className="absolute top-0 left-0 w-full h-full z-40 px-4">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center py-6">
             <a href="/">
                 <img src="logo.png" alt="logo" width="50" height="50" />
@@ -46,13 +46,13 @@ const Header = () => {
                     </div>
                     <div className="opacity-80 hover:opacity-100 duration-200">
                         <a href="#">
-                            <FontAwesomeIcon icon={faDiscord} size="sm" />
+                            <FontAwesomeIcon icon={faDiscord} size="xs" />
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
   )
 }
 

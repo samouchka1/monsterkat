@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'monsterkat-green': '#50A584',
+      },
+    },
   },
   plugins: [],
 }
