@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faTiktok, faXTwitter, faTwitch, faFacebook, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 import '/logo.png';
 
@@ -12,21 +15,41 @@ const Header = () => {
             
             <div>
                 <button className="text-neutral-50 text-2xl">
+                    <FontAwesomeIcon icon={faBars} />
                 </button>
 
-                <ul className="absolute top-24 text-neutral-50 text-2xl">
-                    <li>
+                <div className="flex flex-col justify-center gap-4 absolute top-24 text-neutral-50 text-2xl pr-6">
+                    <div className="opacity-80 hover:opacity-100 duration-200">
                         <a href="#">
-                            {/* <FontAwesomeIcon icon={faInstagram} /> */}
+                            <FontAwesomeIcon icon={faInstagram} size="sm" />
                         </a>
-                    </li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
-                </ul>
+                    </div>
+                    <div className="opacity-80 hover:opacity-100 duration-200">
+                        <a href="#">
+                            <FontAwesomeIcon icon={faTiktok} size="sm" />
+                        </a>
+                    </div>
+                    <div className="opacity-80 hover:opacity-100 duration-200">
+                        <a href="#">
+                            <FontAwesomeIcon icon={faXTwitter} size="sm" />
+                        </a>
+                    </div>
+                    <div className="opacity-80 hover:opacity-100 duration-200">
+                        <a href="#">
+                        <FontAwesomeIcon icon={faTwitch} size="sm" />
+                        </a>
+                    </div>
+                    <div className="opacity-80 hover:opacity-100 duration-200">
+                        <a href="#">
+                            <FontAwesomeIcon icon={faFacebook} size="sm" />
+                        </a>
+                    </div>
+                    <div className="opacity-80 hover:opacity-100 duration-200">
+                        <a href="#">
+                            <FontAwesomeIcon icon={faDiscord} size="sm" />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
