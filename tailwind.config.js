@@ -10,6 +10,9 @@ export default {
         'monsterkat-green': '#50A584',
       },
     },
+    fontFamily: {
+      'Gruppo': ['Gruppo', 'sans-serif'],
+    }
   },
   plugins: [],
 }

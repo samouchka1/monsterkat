@@ -18,9 +18,10 @@ const Content = () => {
                         <h1 className="text-neutral-50 text-6xl">Level Days</h1>
                         <p className="text-neutral-50 text-4xl">conro</p>
                     </div>
-                    <div>
-                        <button className="text-neutral-50 text-2xl bg-monsterkat-green py-2 w-[212px] align-middle">listen now</button>
-                        <a href="#" title="share">Share</a>
+                    <div className="Gruppo flex gap-2"> {/*font family not working*/}
+                        <button className="text-neutral-50 text-2xl bg-monsterkat-green py-2 w-[213px] align-middle">listen now</button>
+                        <button className="text-neutral-50 hover:text-neutral-900 text-2xl bg-transparent hover:bg-white py-[6.4px] w-[153px] align-middle border-solid border-2 border-neutral-50">share</button>
+                        {/*hover not working*/}
                     </div>
                 </div>
             </div>
